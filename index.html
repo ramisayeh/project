@@ -21,7 +21,16 @@
      </head>
 
     <body class="mnm" >
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>loading flights </p>
+            </div>
+          
+          </div>
         <section class="notheader">
+           
+        
            
             <video autoplay loop class="video-background" muted plays-inline>
 
@@ -44,7 +53,7 @@
                         <button class="search-btn"type="button">Search</button>
                     </div>
                 </form>
-            
+                
 
 
             </div>
@@ -54,13 +63,29 @@
 
 
         </section>
-            
-    
+        <script>
+        var modal = document.getElementById("myModal");
 
 
+var btn = document.getElementById("search-btn");
 
 
-    </body>
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js.js"></script>
+       
+</body>
 
 
 
