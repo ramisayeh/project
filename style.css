@@ -4,12 +4,6 @@
         margin: 0px;
         padding: 0px
 }
-.animatedlogo {
-
-
-
-  
-}
 ul {
   list-style-type: none;
   margin: 0;
@@ -32,6 +26,13 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+.logo {
+  display: block;
+  vertical-align: top;
+  width: 80px;
+  height: 80px;
+  float: right;
 }  
 
   
@@ -82,10 +83,12 @@ li a:hover {
     .search-btn:hover {
       background-color:  rgba(247, 212, 18, 0.822);
     }  
-
+    .form-box {
+      background:rgba(0, 0, 0, 0.5);
+      padding: 30px;
     }
-    .search-field
-    {
+    
+    .search-field{
     height: 30px;
     padding: 10px;
     border: none;
@@ -109,10 +112,7 @@ li a:hover {
       border-radius: 25px;
     
     }
-    .form-box {
-      background:rgba(0, 0, 0, 0.5);
-      padding: 30px;
-    }
+    
     
     @media (min-aspect-ratio:16/9)
     {
@@ -134,3 +134,4 @@ li a:hover {
       }
     
     }
+    
