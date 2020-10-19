@@ -1,0 +1,103 @@
+
+.mnm{
+        margin: 0px;
+        padding: 0px
+    }
+  
+    .navigation-container
+    {
+      float: right;
+      width: 150px;
+      height:auto;
+    
+    }
+    .notheader{
+      background:auto  ;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    
+    }
+    .video-background{
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+    
+    }
+    
+    .NAbutton
+    {
+      height: 50px;
+      width: 750px;
+    
+      color:#000;
+      background-color:  rgba(247, 212, 18, 0.822);
+      border: none;
+    margin-bottom: 60px;
+    font: size 100px;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 12px;
+    }
+
+    }
+    .search-field
+    {
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none; 
+    } 
+    .search-field1 {
+      height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    }
+    
+    .search-btn {
+      height: 50px;
+      width: 150px;
+      background: #ffeb3b94;
+      border: none;
+      color:#000;
+      border-radius: 25px;
+    
+    }
+    .form-box {
+      background:rgba(0, 0, 0, 0.5);
+      padding: 30px;
+    }
+    
+    @media (min-aspect-ratio:16/9)
+    {
+      .video-background
+      {
+        width: 100%;
+        height: auto;
+    
+      }
+    
+    }
+    @media (max-aspect-ratio:16/9)
+    {
+      .video-background
+      {
+        width: 100%;
+        height: auto;
+        
+      }
+    
+    }
