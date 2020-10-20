@@ -49,7 +49,6 @@ li a:hover {
     }
     .notheader{
       background:auto  ;
-      height: 100vh;
       background-size: cover;
       background-position: center;
       display: flex;
@@ -110,14 +109,8 @@ li a:hover {
 .item6 {  grid-area: button;}
         
       .grid-container {
-        display: grid;
-  grid-template-areas:
-    ' image date date date date date'
-    ' image city city city city city '
-    ' button button button  button button button';
-  grid-gap: 3px;
-  background-color:  rgba(0, 0, 0, 0.5);
-  padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
       }
       .grid-container > div {
       
@@ -126,31 +119,31 @@ li a:hover {
         font-size: 10px;
       }
       .bookb {
-        height: 50px;
+        height: 30px;
         width: 550px;
         background: #ffeb3b94;
         border: none;
         color:#000;
         border-radius: 25px;
-      
       }
       .bookb:hover {
         background-color:  rgba(247, 212, 18, 0.822);
       }  
       .item1 {
+        height: 43px;
         background: #ffeb3b94;
         border-radius: 25px;
         text-align: center;
-        padding: 20px ;
+        padding: 5px;
         font-size: 10px;
       }
       .item3{
         background: #ffeb3b94;
         border-radius: 25px;
         text-align: center;
-        padding: 20px ;
+        padding: 5px;
         font-size: 10px;
-
+        height: 45px;
       }
       .item4{
         background: #ffeb3b94;
@@ -173,8 +166,15 @@ li a:hover {
         float:left;
         
     }
+    .local3 {
+     
+    }
+    .imagelength 
+    {
+      display: flex;
 
-    \
+    }
 
 
+    
     

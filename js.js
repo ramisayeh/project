@@ -15,10 +15,23 @@ function makeFlights16(city, flightdate1,  flightdate2, price, fds, bgimgurl ) {
  var x = [];
     makeFlights16("paris", "23/10/2020", "24/10/2020", "$3400", "first class", "paris");
     x.push(flight);
-const searchInput = document.getElementById('search');
+const dateInput = document.getElementById('dat');
+const searchInput = document.getElementById('search-in');
 searchInput.addEventListener("input", (event) => {
-    const value = event.target.value; });
-    
+    event.preventDefault();
+    if( $("#search-in").val()==='paris' ){
+        $("#btn").click(function(){
+            window.location.href = 'index1.html' }); 
+
+        }
+        else if ($("#search-in").val()==='tokyo'  ){
+            $("#btn").click(function(){
+                window.location.href = 'index2.html' });
+        }
+        
+         
+     });
+
     
     
 
