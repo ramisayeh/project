@@ -1,0 +1,180 @@
+.mnm
+{
+        margin: 0px;
+        padding: 0px
+}
+.mnm
+{
+        margin: 0px;
+        padding: 0px
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.logo {
+  display: block;
+  vertical-align: top;
+  width: 80px;
+  height: 80px;
+  float: right;
+}  
+
+  
+    .navigation-container
+    {
+      float: right;
+      width: 150px;
+      height:auto;
+    
+    }
+    .notheader{
+      background:auto  ;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    
+    }
+    .video-background{
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+    
+    }
+    @media (min-aspect-ratio:16/9)
+    {
+      .video-background
+      {
+        width: 100%;
+        height: auto;
+    
+      }
+    
+    }
+    @media (max-aspect-ratio:16/9)
+    {
+      .video-background
+      {
+        width: 100%;
+        height: auto;
+        
+      }
+    
+    }
+    
+     
+     .lilimg{
+        width: 80px;
+        height: 80px;
+     }
+     .cityNaame{
+         border: 3px solid  #ffeb3b94;
+         bottom: 50px;
+
+     }
+     .header{
+         background-color: rgba(0, 0, 0, 0.5);
+         float: left ; 
+         display: block;}
+         .item1 { grid-area: date; }
+.item2 { grid-area: image; }
+.item3 { grid-area: city; }
+.item6 {  grid-area: button;}
+        
+      .grid-container {
+        display: grid;
+  grid-template-areas:
+    ' image date date date date date'
+    ' image city city city city city '
+    ' button button button  button button button';
+  grid-gap: 3px;
+  background-color:  rgba(0, 0, 0, 0.5);
+  padding: 10px;
+      }
+      .grid-container > div {
+      
+        text-align: center;
+        padding: 20px ;
+        font-size: 10px;
+      }
+      .bookb {
+        height: 50px;
+        width: 550px;
+        background: #ffeb3b94;
+        border: none;
+        color:#000;
+        border-radius: 25px;
+      
+      }
+      .bookb:hover {
+        background-color:  rgba(247, 212, 18, 0.822);
+      }  
+      .item1 {
+        background: #ffeb3b94;
+        border-radius: 25px;
+        text-align: center;
+        padding: 20px ;
+        font-size: 10px;
+      }
+      .item3{
+        background: #ffeb3b94;
+        border-radius: 25px;
+        text-align: center;
+        padding: 20px ;
+        font-size: 10px;
+
+      }
+      .item4{
+        background: #ffeb3b94;
+        border-radius: 25px;
+        text-align: center;
+        padding: 20px ;
+        font-size: 10px;
+
+      }
+      .item5{
+        background: #ffeb3b94;
+        border-radius: 25px;
+        text-align: center;
+        padding: 20px ;
+        font-size: 10px;
+
+      }
+      .column{
+        width:33%;
+        float:left;
+        
+    }
+
+    \
+
+
+    

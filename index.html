@@ -6,7 +6,7 @@
      <div class="navbar">
      <ul>
         
-        <li><a class="active" href="#home">Home</a></li>
+        <li><a id="homebtn" class="active" href="#home">Home</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
         <video autoplay loop class="logo" muted plays-inline>
@@ -14,44 +14,26 @@
             <source src="anogoooo.mp4" type="video/mp4">
       </ul>
     </div>
-      
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+      <link rel="stylesheet" href="style.css">
      </head>
-
-    <body class="mnm" >
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>loading flights </p>
-            </div>
-          
-          </div>
+       <body class="mnm" >
+       
         <section class="notheader">
-           
-        
-           
             <video autoplay loop class="video-background" muted plays-inline>
 
                 <source src="background1.mp4.mp4" type="video/mp4">
-
-
             </video>
             <div class = "header" >
-                <form>
-                    <button class="NAbutton" type="button">we make traveling easier </button>
-                    <div  class="form-box">
-                        <input type="text" class="search-field  place  "
+                <button class="NAbutton" type="button">we make traveling easier </button>
+                <form  class="form-box" action="index1.html">
+                        <input id="search-in" type="search" class="search-field  place" value="" onchange="openPage()"
                         placeholder="City">
-                        <input type="date" class="fixing-date  flight "
+                        <input type="date" class="fixing-date  flight"
                         placeholder="date  ">
-                        <input type="date" class="fixing-date  flight "
+                        <input type="date" class="fixing-date  flight"
                         placeholder="date  ">
-                        
-                        
-                        <button class="search-btn"type="button">Search</button>
-                    </div>
+                        <button id="btn" type="submit" class="search-btn" value="search">Search</button>
+                
                 </form>
                 
 
@@ -64,7 +46,7 @@
 
         </section>
         <script>
-       var flight = [ { "city": "berlin", "flightdate1": "23/10/2020", "flightdate2": "24/10/2020", "fds": "first class", "price": "$3500", "bgimgurl": "berlin"},
+       var flights = [ { "city": "berlin", "flightdate1": "23/10/2020", "flightdate2": "24/10/2020", "fds": "first class", "price": "$3500", "bgimgurl": "berlin"},
      {"city": "berlin", "flightdate1": "23/10/2020","flightdate2": "24/10/2020","fds": "Business class", "price": "$2400", "bgimgurl": "berlin"} ,
      {"city": "berlin", "flightdate1": "23/10/2020", "flightdate2": "24/10/2020", "fds": "economy class", "price": "$950","bgimgurl": "berlin"},
      {"city": "paris", "flightdate1": "23/10/2020","flightdate2": "24/10/2020", "fds": "first class", "price": "$3400","bgimgurl": "paris"},
@@ -85,6 +67,7 @@
      {"city": "new york",  "flightdate1": "23/10/2020", "flightdate2": "24/10/2020", "fds": "first  class", "price": "$4100","bgimgurl": "new york"},
     {"city": "new york",  "flightdate1": "23/10/2020", "flightdate2": "24/10/2020", "fds": "business  class", "price": "$3600","bgimgurl": "new york"},
     {"city": "new york",  "flightdate1": "23/10/2020", "flightdate2": "24/10/2020", "fds": "first  class", "price": "$900","bgimgurl": "new york"} ]
+    
 </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js.js"></script>
